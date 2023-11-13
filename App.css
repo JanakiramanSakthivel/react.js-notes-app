@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.note{
+  background-color:#F3D3BD;
+  border-radius:7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 16px;
+  float: left;
+  color: #070707;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-warp;
+  word-wrap: break-word;
+}
+
+body{
+ background-color: #824670;
+}
+
+#title{
+  font-size: 20px;
+padding: 10px;
+font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #06D6A0;
+border-radius: 20px;
+border: none;
+color: #070707;
+}
+
+#content{
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:#F3D3BD;
+border-radius: 20px;
+border: none;
+margin-top: 10px;
+color: #333333;
+}
+
+#add{
+  font-size: 15px;
+  background-color: #EF476F;
+border-radius: 20px;
+border: none;
+margin-top: 10px;
+color: #FCFAF9;
+}
+
+#remove{
+  
+}
